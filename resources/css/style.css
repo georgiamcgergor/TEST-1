@@ -1,7 +1,8 @@
 /* GLOBAL DEFAULTS */
 
 body {
-    background-color: blanchedalmond;
+    background-color: white;
+    font-family: FreightBig Pro;
 } 
 a{
     color: rgb(70, 87, 69);
@@ -13,18 +14,18 @@ img{
 
 /* HEADINGS AND TYPOGRAPHY */
 h1{
-    background-color: blanchedalmond;
-    color: burlywood;
-    font-family: Raleway;
+    color: rgb(63, 62, 62);
+    font-family: FreightBig Pro;
+
 }
 
-h2{color: black;
+h2{color: rgb(63, 62, 62);
 font-size: 20px;
-font-family: Raleway;}
+font-family: FreightBig Pro;}
 
 /* LAYOUTS */
 .layout-wide{
-    max-width: 400px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
 
@@ -34,11 +35,15 @@ font-family: Raleway;}
 /* HEADER, MAIN & FOOTER */ 
 
 header {
-    background-color: beige;
+    background-color:white;
 }
 
-main {background-color: blanchedalmond;
+main {background-color:whitesmoke;
 }
+
+footer {background-color: rgb(63, 62, 62);
+    color: whitesmoke;
+padding: 50px;}
 
 /* NAVIGATION */
 
