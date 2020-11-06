@@ -1,14 +1,29 @@
 /* GLOBAL DEFAULTS */
 @import 'https://necolas.github.io/normalize.css/8.0.1/normalize.css';
 
+@import url("https://use.typekit.net/luj7qkh.css");
+
+@import url("https://use.typekit.net/luj7qkh.css");
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: white;
-    font-family: FreightBig Pro;
+    font-family: freight-big-pro, serif;
+font-weight: 300;
+font-style: normal;
+    line-height: 1.5;
 } 
+
 a{
     color: rgb(70, 87, 69);
 }
 
+a:hover{
+    color: black;
+}
 img,
 iframe {
     max-width: 100%;
@@ -23,7 +38,12 @@ h1{
 
 h2{color: rgb(63, 62, 62);
 font-size: 20px;
-font-family: FreightBig Pro;}
+
+font-family: freight-big-pro, serif;
+
+font-weight: 900;
+
+font-style: normal;}
 
 /* LAYOUTS */
 .layout-wide{
@@ -38,6 +58,7 @@ font-family: FreightBig Pro;}
 
 header {
     background-color:white;
+
 }
 
 main {background-color:whitesmoke;
@@ -45,6 +66,7 @@ main {background-color:whitesmoke;
 
 footer {background-color: rgb(63, 62, 62);
     color: whitesmoke;
+    text-align: center;
 padding: 50px;}
 
 /* NAVIGATION */
@@ -57,11 +79,11 @@ padding: 50px;}
 
 @media screen and (min-width: 800px) {
     .news-component {background-color: rgb(224, 220, 211);
-        display: grid; grid-template-columns: 50% 50%;
+        display: grid; grid-template-columns: 3fr 3fr;
         grid-gap: 10px; 
        
 
     }
 
-}
+=-07654321`
 
