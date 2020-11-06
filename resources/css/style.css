@@ -38,24 +38,62 @@ iframe {
 
 /* HEADINGS AND TYPOGRAPHY */
 h1{
-    color: rgb(63, 62, 62);
-    font-family: freight-big-pro, serif;
+     color:rgb(63, 62, 62);
+    font-family:freight-big-pro, serif;
 
-font-weight: 400;
+    font-weight: 500;
 
-font-style: normal;
+    font-style: normal;
 
-font-size: 60px;}
+    font-size: 60px;
+}
 
 
 h2{color: rgb(63, 62, 62);
-font-size: 20px;
+font-size: 30px;
 
 font-family: freight-big-pro, serif;
 
 font-weight: 900;
 
 font-style: normal;}
+
+h3{
+
+    color: rgb(63, 62, 62);
+    font-size: 25px;
+    
+    font-family: freight-big-pro, serif;
+    
+    font-weight: 500;
+    
+    font-style: normal;
+} 
+
+
+h4 {
+    color: whitesmoke;
+    font-family:freight-big-pro, serif;
+
+    font-weight: 300;
+
+    font-style: normal;
+
+    font-size: 30px;
+
+}
+
+h5 {
+    color: rgb(63, 62, 62);
+    font-family: freight-big-pro, serif;
+
+font-weight: 300;
+
+font-style: normal;
+
+font-size: 50px;}
+
+}
 
 .highlight {
     font-family:freight-big-pro, serif;
@@ -66,6 +104,7 @@ font-style: normal;}
 
     font-size: 18px;
 }
+
 
 /* LAYOUTS */
 .layout-wide{
@@ -88,8 +127,8 @@ main {background-color:whitesmoke;
 
 footer {background-color: rgb(63, 62, 62);
     color: whitesmoke;
-    text-align: center;
-padding: 50px;}
+    text-align: left;
+padding: 20px;}
 
 /* NAVIGATION */
 
@@ -98,7 +137,11 @@ padding: 50px;}
     background-color: white;
     padding: 20px;
 }
+.footer-logo {
+    text-align: left;
+    
 
+} 
 @media screen and (min-width: 800px) {
     .news-component {
         display: grid; grid-template-columns: 3fr 3fr;
